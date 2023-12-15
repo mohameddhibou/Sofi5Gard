@@ -1,0 +1,537 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+
+.logo{
+	margin-left: 10px;
+	width: 15%;
+}
+
+.navbar-brand img{
+	height: 55px;
+	padding-left: 10px;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+}
+
+.nav-link:hover{
+	background-color: #005EFF !important;
+	color: white !important;
+}
+
+
+
+.navbar{
+	background: #f4f7ff;
+}
+
+.navbar-toggler{
+	border: none!important;
+}
+
+.nav-link{
+	color: #444 !important;
+	font-family: calibri;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#slider
+{
+	width: 100%;
+}
+
+.event{
+	position: relative;
+  text-align: center;
+}
+
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial !important;
+
+	
+}
+
+.caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial !important;
+
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-fluid{
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+	width: 100%;
+
+}
+
+
+.carousel-caption h5{
+	color: #eee;
+	font-size: 	40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.caption h5{
+	color: #eee;
+	font-size: 	40px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(imgs/service.png);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	padding-bottom: 100px;
+	padding-top: 80px;
+}
+
+
+
+
+.icon{
+	font-size: 40px;
+	margin: 20px auto;
+	padding: 20px auto;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+}
+
+#services p{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #ccc;
+	font-family: sans-serif;
+}
+
+#services h3{
+	margin-bottom: 40px;
+}
+
+.services .col-md-4:hover{
+	background: #005EFF;
+	cursor: pointer;
+	transition: 0.5s; 
+}
+
+/***********Histoire**********/
+
+#histoire{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.histoire-content{
+	padding-top: 20px;
+}
+
+/***********testimonials**********/
+
+
+.col-4{
+    padding: 50px;
+    flex-basis: 50%;
+    min-width: 400px;
+    position: relative;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+ #testimonials .col-4{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-color: #eee;
+
+ }
+#testimonials .col-4 img{
+    margin-top: 20px;
+    border-radius: 50%;
+ }
+#testimonials .col-4:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    color: #005EFF;
+    font-size: 40px;
+}
+.col-5 p{
+    font-size: 15px;
+    margin: 12px 0;
+    color: #777
+}
+#testimonials .col-4 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+.rating .fa{
+    color: #005EFF;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-decoration : underline solid #005EFF;
+    font-weight: 600;
+}
+
+
+.carousel-item
+{
+	width: 50%;
+	margin-left: 0px;
+}
+
+#histoire
+{
+	margin:20px 0;
+	margin-top: 10px;
+}
+.histoire
+{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.histoire-content{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+
+
+.gallery{
+	margin: 10px 50px;
+	margin-left: 100px;
+}
+
+.gallery img{
+	width: 150px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 0.5s;
+}
+
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.07);
+}
+
+footer .fas{
+    color: #005EFF;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #000;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+
+footer h2{
+    font-family: 'Poppins', sans-serif;
+    text-decoration : underline solid #005EFF;
+    color: #f4f7ff;
+    margin-top: 60px;
+}
+
+.main-content{
+    display: flex;
+}
+
+.small-container .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600; 
+}
+
+
+
+.text{
+    color: #B9B8B8;
+    font-weight: 700;
+}
+ footer p{
+    color: #B9B8B8;
+    font-weight: 700; 
+ }
+
+.copyright
+{
+    font-family: 'Poppins';
+    font-weight: 300;
+    color:#555;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-hr{
+  width: 70%;
+  color: #CCC;
+}
+
+
+.small-container{
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn1{
+  padding: 0;
+  border: none;
+  background: none;
+
+
+    display: inline-block;
+    background-color: #005EFF;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.btn1:focus{
+  outline: none;
+}
+
+
+.btn1:hover{
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+}
+
+/* Style all font awesome icons */
+.social-media {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+/* Add a hover effect if you want */
+.social-media:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: black; 
+  transform: translateY(-10%);
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #005EFF;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #005EFF;
+  color: white;
+}
+.fa-google {
+  background: #005EFF;
+  color: white;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.hide-desktop{
+	opacity: 0;
+	position: absolute;
+	width: 0;
+}
+
+
+.menu-icon{
+	width: 28px;
+	margin-left: 20px;
+}
+
+
+/*********** media *********/
+
+@media only screen and (max-width: 500px){
+	nav ul{
+		position: absolute;
+		top: 70px;
+		left: 0;
+		background: #333;
+		width: 100%;
+	}
+
+	nav ul li{
+		display: block;
+		margin-right: 50px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.caption h5{
+	color: #eee;
+	font-size: 	17px;
+	font-family: 'Poppins', sans-serif;
+}
+.carousel-caption h5{
+	color: #eee;
+	font-size: 	15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+	margin-left: 130px;
+	width: 70px;
+}
+
+	#histoire{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.histoire-content{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+
+.gallery img{
+	width: 70px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 0.5s;
+}
+
+.gallery{
+	margin: 10px 50px;
+	margin-left: 50px;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-decoration : underline solid #005EFF;
+    font-weight: 500;
+}
+
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(imgs/res-service.png);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	padding-bottom: 100px;
+	padding-top: 80px;
+}
+
+.col-4{
+    padding: 50px;
+    flex-basis: 50%;
+    min-width: 300px;
+    position: relative;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+
+#images .gallery img{
+	width: 60px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 0.5s;
+}
+
+#images .gallery{
+	margin: 10px 50px;
+	margin-left: 50px;
+}
+
+.hide-desktop{
+	opacity: 1;
+	position: relative;
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+	width: 100%;
+}
+
+.img-fluid{
+	opacity: 0;
+	position: absolute;
+	width: 0%;
+}
+
+.copyright
+{
+    font-size: 13px;
+}
+
+}
